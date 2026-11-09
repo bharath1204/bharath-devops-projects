@@ -11,7 +11,7 @@ REQUEST_COUNT = Counter(
 @app.route('/')
 def home():
     REQUEST_COUNT.inc()
-    return "Hello! DevOps Monitoring Project is running!"
+    return "Hello! DevOps Monitoring Project is running!" 
 
 @app.route('/health')
 def health():
